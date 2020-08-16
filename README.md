@@ -1,4 +1,4 @@
-# heart-disease-prediction
+# Heart-Disease-Prediction
 Heart disease prediction System.This app is deployed in heroku 
 The data is taken from a UCI Heart disease dataset library. 
 We have used ANN -(keras library)
