@@ -1,17 +1,15 @@
-# Heart-Disease-Prediction
-Heart disease prediction System.This app is deployed in heroku 
-The data is taken from a UCI Heart disease dataset library. 
-We have used ANN -(keras library)
-The trained machine learning model is made available to predict the occurence of heart disease . 
-The model is 85%(approx) accurate. Enjoy! 
-PS: the site is still under construction
-# Dependencies
-sudo pip install -r requirements.txt
-# Usage
-Once dependencies are installed, just run this to see it in your browser.
+# Heart-Disease-Detection :Overview
+![](Images/45.png)
 
-python app.py
+Simple App which can detect Weather they have Heart Disease or not depending up on users data provided to the application.
+* Created an app that detects wheather they have Heart Disease or not to help doctors with 85% accuracy .
+* Data collected from Open source websites from Internet .
+* Processed features to make data look's like perfect and to get good accuracy with less loss
+* I had used Ada boost Classifier ,XGBoost ,Logistic ,support vector to reach best model
+* Deployed model on Heroku .
 
-That's it! It's serving a saved Keras model to you via Flask
-# Author
-Surekha Ramireddy
+## Code and Resources Used :
+* Python Version : 3.7
+* Packages: pandas, numpy, sklearn, matplotlib, seaborn, selenium, flask, json, pickle
+* For Web Framework Requirements: `pip install -r requirements.txt`
+* Languages : Python ,CSS ,Html ,Java Script
