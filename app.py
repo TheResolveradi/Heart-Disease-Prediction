@@ -16,7 +16,7 @@ app=Flask(__name__)
 def home():
 	return render_template('home.html')
 def about():
-	return render_template('about.html')
+	return render_template('ABOUT US.html')
 @app.route('/index',methods = ['POST'])
 def index():
     return render_template('index.html')
